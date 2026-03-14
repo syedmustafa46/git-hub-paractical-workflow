@@ -1,13 +1,13 @@
-name: workflow paractical.
-  on: 
+name: workflow paractical
+on: 
     push: 
      branches: [main]
 
 jobs: 
-  first work:
+  first_work:
         runs-on: ubuntu-latest
 
         steps: 
-        - name: first step
-           Run: echo "fahad"
+          - name: first step.
+            run: echo "fahad"
   
