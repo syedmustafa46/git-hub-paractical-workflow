@@ -1,0 +1,13 @@
+name: scheduler
+
+on:
+  schedule: 
+    - cron: "46 6 * * *"
+
+  jobs:
+   run-scripts:
+   runs-on: ubuntu-latest
+
+   steps:
+    - name: Print messgae 
+    run: echo "fahad"
